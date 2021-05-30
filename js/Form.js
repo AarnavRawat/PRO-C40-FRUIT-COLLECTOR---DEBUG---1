@@ -48,7 +48,7 @@ class Form{
             //add code to reset the values of the gameState and the playerCount nodes to 0 in the database
             player.updateCount(0);
 
-            gameState.update(0);
+            game.update(0);
 
             Player.deletePlayerInfo();
         });
